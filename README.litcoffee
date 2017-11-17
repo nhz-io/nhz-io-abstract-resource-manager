@@ -38,7 +38,7 @@ class Manager extends AbstractResourceManager {
 
           @stop job, resource if @shouldStop job, resource
 
-          config = @needUpgrade job
+          config = @needUpgrade job, resource
 
           job = @upgrade job, config if config
 
