@@ -107,7 +107,7 @@ class Manager extends AbstractResourceManager {
 
       t.ok manager instanceof AbstractResourceManager
 
-## Version 0.1.0
+## Version 0.1.1
 
 ## License [MIT](LICENSE)
 
